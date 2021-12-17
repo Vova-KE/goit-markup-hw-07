@@ -3,12 +3,16 @@
 @import './utils/reset';
 @import './utils/hidden';
 
+@import './components/header';
+@import './components/logo';
 @import './components/container';
 @import './components/section';
-
+@import './components/hero';
 @import './components/properties';
 @import './components/works';
+@import './components/team';
 @import './components/clients';
+@import './components/footer';
 
 @import './components/portfolio_filter';
 @import './components/portfolio_cards';

@@ -13,39 +13,38 @@ li {
   margin: 0;
   padding: 0;
 }
-.logo-link,
-.nav-item-link,
-.contacts-top-link,
-.bottom-link,
-.address-bottom-link {
+
+.logo__link,
+.nav-list__link,
+.contacts-top__link,
+.contacts-list__link {
   text-decoration: none;
 }
 
-.nav-item,
+.nav-list,
 .property-list,
 .work-list,
-.team-list-item,
-.address-list-item,
+.team-list,
+.social-list,
+.clients-list,
 .filter-list,
 .cards-list,
-.clients-list,
-.join-icon-list,
-.team-list-social-block {
+.contacts-list,
+.join-list {
   list-style: none;
 }
 
-.nav-item-link:hover,
-.nav-item-link:focus,
-.nav-item-link:active,
-.contacts-top-link:hover,
-.contacts-top-link:focus,
-.contacts-top-link:active,
-.address-bottom-link:hover,
-.address-bottom-link:focus,
-.address-bottom-link:active,
-.address-bottom-map:hover,
-.address-bottom-map:focus,
-.address-bottom-map:active {
+.nav-list__link:hover,
+.nav-list__link:focus,
+.nav-list__link:active,
+.contacts-top__link:hover,
+.contacts-top__link:focus,
+.contacts-top__link:active,
+.contacts-list__link:hover,
+.contacts-list__link:focus,
+.contacts-list__link:active,
+.contacts-list__map:hover,
+.contacts-list__map:focus,
+.contacts-list__map:active {
   color: var(--accent-color);
-  outline: none;
 }
