@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --body-main-color: #ffffff;
   --accent-color: #2196f3;
   --section-color: #2f303a;
@@ -9,14 +9,14 @@
   --other-bcg-color: #2196f3;
   --main-letter-spacing: 0.03em;
   --clients-logo-color: #afb1b8;
-}
+} */
 
-.body {
+/* .body {
   font-family: 'Roboto', 'Raleway', sans-serif;
   background-color: var(--body-main-color);
-}
+} */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -30,14 +30,14 @@ ul,
 li {
   margin: 0;
   padding: 0;
-}
+} */
 
-.container {
+/* .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-}
+} */
 
 .section {
   padding: 94px 0;
