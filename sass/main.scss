@@ -1,5 +1,10 @@
 @import './utils/variables';
 @import './utils/common';
 @import './utils/reset';
+@import './utils/hidden';
 
 @import './components/container';
+@import './components/section';
+
+@import './components/portfolio_filter';
+@import './components/portfolio_cards';

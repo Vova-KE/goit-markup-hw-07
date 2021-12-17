@@ -13,3 +13,39 @@ li {
   margin: 0;
   padding: 0;
 }
+.logo-link,
+.nav-item-link,
+.contacts-top-link,
+.bottom-link,
+.address-bottom-link {
+  text-decoration: none;
+}
+
+.nav-item,
+.property-item-list,
+.work-list-item,
+.team-list-item,
+.address-list-item,
+.filter-list,
+.cards-list,
+.clients-list,
+.join-icon-list,
+.team-list-social-block {
+  list-style: none;
+}
+
+.nav-item-link:hover,
+.nav-item-link:focus,
+.nav-item-link:active,
+.contacts-top-link:hover,
+.contacts-top-link:focus,
+.contacts-top-link:active,
+.address-bottom-link:hover,
+.address-bottom-link:focus,
+.address-bottom-link:active,
+.address-bottom-map:hover,
+.address-bottom-map:focus,
+.address-bottom-map:active {
+  color: var(--accent-color);
+  outline: none;
+}

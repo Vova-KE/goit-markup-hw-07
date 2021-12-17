@@ -38,15 +38,15 @@ li {
   padding-right: 15px;
   margin: 0 auto;
 } */
-
+/* 
 .section {
   padding: 94px 0;
 }
 
 .section.no-padding {
   padding: 0 0;
-}
-.logo-link,
+} */
+/* .logo-link,
 .nav-item-link,
 .contacts-top-link,
 .bottom-link,
@@ -81,7 +81,22 @@ li {
 .address-bottom-map:active {
   color: var(--accent-color);
   outline: none;
-}
+} */
+
+/* сделать большие кнопки отделньным классом шаблоном */
+/* .btn{
+    width: 200px;
+  height: 50px;
+  background-color: var(--other-bcg-color);
+  border-radius: 4px;
+  color: var(--other-text-color);
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  padding: 10px 28px;
+  display: flex;
+  align-items: center;
+} */
 
 /*----------------хедер----------------------*/
 
@@ -244,8 +259,7 @@ li {
   text-transform: uppercase;
 }
 
-.visually-hidden,
-.visually-hidden-portfolio {
+/* .visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -256,7 +270,7 @@ li {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
+} */
 
 .property.section {
   padding-top: 94px;
@@ -301,7 +315,6 @@ li {
   margin-bottom: 50px;
 }
 .work-list {
-  /* background-color: brown; */
   display: flex;
   margin-left: -30px;
   margin-bottom: -30px;
@@ -898,8 +911,23 @@ li {
   margin-right: auto;
 }
 /*----------------портфолио----------------------*/
+/* .filter-list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-.potrfolio-buttons {
+.filter-list__item {
+  margin-right: 8px;
+}
+
+.filter-list__item:last-child {
+  margin-right: 0;
+}
+
+.filter-list__button {
   color: var(--main-text-color);
   font-size: 16px;
   font-weight: 500;
@@ -916,51 +944,17 @@ li {
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.potrfolio-buttons:hover,
-.potrfolio-buttons:focus,
-.potrfolio-buttons:active {
+.filter-list__button:hover,
+.filter-list__button:focus,
+.filter-list__button:active {
   color: var(--other-text-color);
   background-color: var(--other-bcg-color);
   outline: none;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08),
     0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-}
+} */
 
-.filter-title {
-  color: var(--main-text-color);
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  text-align: left;
-  margin-bottom: 4px;
-}
-
-.filter-item {
-  color: var(--second-text-color);
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: var(--main-letter-spacing);
-  text-align: left;
-}
-
-.buttons {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.buttons-list-item {
-  margin-right: 8px;
-}
-
-.buttons-list-item:last-child {
-  margin-right: 0;
-}
-
-.card {
+/* .cards-list {
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
@@ -968,36 +962,36 @@ li {
   margin-bottom: -30px;
 }
 
-.block-list-item {
+.cards-list__item {
   flex-basis: calc((100% - 3 * 30px) / 3);
   margin-left: 30px;
   margin-bottom: 30px;
 }
 
-.filter-hover-block > img {
+.cards-list__hover-block > img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-.list-shadow:hover {
+.cards-list__shadow:hover {
   cursor: pointer;
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06),
     0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
-.border-item {
+.cards-list__border {
   border: 1px solid #eeeeee;
   border-top: none;
   padding: 20px 24px;
 }
 
-.filter-hover-block {
+.cards-list__hover-block {
   position: relative;
   overflow: hidden;
 }
 
-.filter-hover-text {
+.cards-list__text {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1015,7 +1009,24 @@ li {
   background-color: rgba(33, 150, 243, 0.9);
 }
 
-.block-list-item:hover .filter-hover-text,
-.block-list-item:focus .filter-hover-text {
+.cards-list__item:hover .cards-list__text,
+.cards-list__item:focus .cards-list__text {
   transform: translateY(0);
 }
+.cards-list__title {
+  color: var(--main-text-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: left;
+  margin-bottom: 4px;
+}
+
+.cards-list__label {
+  color: var(--second-text-color);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: var(--main-letter-spacing);
+  text-align: left;
+} */
