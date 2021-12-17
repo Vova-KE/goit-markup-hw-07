@@ -62,7 +62,7 @@
     </header>
     <!------------------------------main container---------------------------->
     <main>
-      <section class="section hero no-padding">
+      <section class="section hero">
         <div class="container hero-container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
           <button type="button" class="hero-buttons" data-modal-open>Заказать услугу</button>
@@ -70,66 +70,60 @@
       </section>
       <!---------------------------Наши характеристики ----------------------->
 
-      <section class="section property no-padding">
-        <div class="container property">
+      <section class="section property">
+        <div class="container">
           <h2 class="visually-hidden">Наши характеристики</h2>
           <ul class="property-list">
-            <li class="property-item-list">
-              <div class="property-item-block">
-                <div class="property-item-icon">
-                  <svg class="property-list-icon" width="70" height="70">
+            <li class="property-list__item">
+              <div class="property-list__wrap">
+                <div class="property-list__block">
+                  <svg class="property-list__icon" width="70" height="70">
                     <use href="./images/icons.svg#icon-antenna"></use>
                   </svg>
                 </div>
-                <h3 class="property-title">
-                  <span class="property-title-up">Внимание к деталям</span>
-                </h3>
-                <p class="property-text">
+                <h3 class="property-list__title">Внимание к деталям</h3>
+                <p class="property-list__text">
                   Идейные соображения, а также начало повседневной работы по формированию позиции.
                 </p>
               </div>
             </li>
-            <li class="property-item-list">
-              <div class="property-item-block">
-                <div class="property-item-icon">
-                  <svg class="property-list-icon" width="70" height="70">
+            <li class="property-list__item">
+              <div class="property-list__wrap">
+                <div class="property-list__block">
+                  <svg class="property-list__icon" width="70" height="70">
                     <use href="./images/icons.svg#icon-clock"></use>
                   </svg>
                 </div>
-                <h3 class="property-title">
-                  <span class="property-title-up">Пунктуальность</span>
-                </h3>
-                <p class="property-text">
+                <h3 class="property-list__title">Пунктуальность</h3>
+                <p class="property-list__text">
                   Задача организации, в особенности же рамки и место обучения кадров влечет за
                   собой.
                 </p>
               </div>
             </li>
-            <li class="property-item-list">
-              <div class="property-item-block">
-                <div class="property-item-icon">
-                  <svg class="property-list-icon" width="70" height="70">
+            <li class="property-list__item">
+              <div class="property-list__wrap">
+                <div class="property-list__block">
+                  <svg class="property-list__icon" width="70" height="70">
                     <use href="./images/icons.svg#icon-diagram"></use>
                   </svg>
                 </div>
-                <h3 class="property-title"><span class="property-title-up">Планирование</span></h3>
-                <p class="property-text">
+                <h3 class="property-list__title">Планирование</h3>
+                <p class="property-list__text">
                   Равным образом консультация с широким активом в значительной степени
                   обуславливает.
                 </p>
               </div>
             </li>
-            <li class="property-item-list">
-              <div class="property-item-block">
-                <div class="property-item-icon">
-                  <svg class="property-list-icon" width="70" height="70">
+            <li class="property-list__item">
+              <div class="property-list__wrap">
+                <div class="property-list__block">
+                  <svg class="property-list__icon" width="70" height="70">
                     <use href="./images/icons.svg#icon-astronaut"></use>
                   </svg>
                 </div>
-                <h3 class="property-title">
-                  <span class="property-title-up">Современные технологии</span>
-                </h3>
-                <p class="property-text">
+                <h3 class="property-list__title">Современные технологии</h3>
+                <p class="property-list__text">
                   Значимость этих проблем настолько очевидна, что реализация плановых заданий.
                 </p>
               </div>
@@ -140,26 +134,26 @@
 
       <!------------------------Чем мы занимаемся------------------------------>
 
-      <section class="section work no-padding">
-        <div class="container work">
+      <section class="section work no-padding-top">
+        <div class="container">
           <h2 class="work-title">Чем мы занимаемся</h2>
           <ul class="work-list">
-            <li class="work-list-item">
-              <div class="work-list-item-block">
+            <li class="work-list__item">
+              <div class="work-list__block">
                 <img src="./images/img.jpg" alt="работа с кодом на клавиутаре" width="370" />
-                <p class="work-list-item-title">Десктопные приложения</p>
+                <p class="work-list__label">Десктопные приложения</p>
               </div>
             </li>
-            <li class="work-list-item">
-              <div class="work-list-item-block">
+            <li class="work-list__item">
+              <div class="work-list__block">
                 <img src="./images/img2.jpg" alt="работа с ноутбуком и смартфоном" width="370" />
-                <p class="work-list-item-title">Мобильные приложения</p>
+                <p class="work-list__label">Мобильные приложения</p>
               </div>
             </li>
-            <li class="work-list-item">
-              <div class="work-list-item-block">
+            <li class="work-list__item">
+              <div class="work-list__block">
                 <img src="./images/img3.jpg" alt="работа с цветом на планшете" width="370" />
-                <p class="work-list-item-title">Дизайнерские решения</p>
+                <p class="work-list__label">Дизайнерские решения</p>
               </div>
             </li>
           </ul>
@@ -168,7 +162,7 @@
 
       <!-----------------------------Наша команда----------------------------->
 
-      <section class="section team no-padding">
+      <section class="section team">
         <div class="container team">
           <h2 class="team-title">Наша команда</h2>
           <ul class="team-list">
@@ -324,49 +318,49 @@
         </div>
       </section>
       <!------------------------ постоянные клиенты ----------------->
-      <section class="section clients no-padding">
-        <div class="container clients">
+      <section class="section clients">
+        <div class="container">
           <h2 class="clients-title">Постоянные клиенты</h2>
-          <div class="clients-list-block">
+          <div>
             <ul class="clients-list">
-              <li class="clients-list-item">
-                <a href="" class="clients-list-link">
-                  <svg class="clients-list-icon" width="106" height="60">
+              <li class="clients-list__item">
+                <a href="" class="clients-list__link">
+                  <svg class="clients-list__icon" width="106" height="60">
                     <use href="./images/icons.svg#icon-client1"></use>
                   </svg>
                 </a>
               </li>
-              <li class="clients-list-item">
-                <a href="" class="clients-list-link">
-                  <svg class="clients-list-icon" width="106" height="60">
+              <li class="clients-list__item">
+                <a href="" class="clients-list__link">
+                  <svg class="clients-list__icon" width="106" height="60">
                     <use href="./images/icons.svg#icon-client2"></use>
                   </svg>
                 </a>
               </li>
-              <li class="clients-list-item">
-                <a href="" class="clients-list-link">
-                  <svg class="clients-list-icon" width="106" height="60">
+              <li class="clients-list__item">
+                <a href="" class="clients-list__link">
+                  <svg class="clients-list__icon" width="106" height="60">
                     <use href="./images/icons.svg#icon-client3"></use>
                   </svg>
                 </a>
               </li>
-              <li class="clients-list-item">
-                <a href="" class="clients-list-link">
-                  <svg class="clients-list-icon" width="106" height="60">
+              <li class="clients-list__item">
+                <a href="" class="clients-list__link">
+                  <svg class="clients-list__icon" width="106" height="60">
                     <use href="./images/icons.svg#icon-client4"></use>
                   </svg>
                 </a>
               </li>
-              <li class="clients-list-item">
-                <a href="" class="clients-list-link">
-                  <svg class="clients-list-icon" width="106" height="60">
+              <li class="clients-list__item">
+                <a href="" class="clients-list__link">
+                  <svg class="clients-list__icon" width="106" height="60">
                     <use href="./images/icons.svg#icon-client5"></use>
                   </svg>
                 </a>
               </li>
-              <li class="clients-list-item">
-                <a href="" class="clients-list-link">
-                  <svg class="clients-list-icon" width="106" height="60">
+              <li class="clients-list__item">
+                <a href="" class="clients-list__link">
+                  <svg class="clients-list__icon" width="106" height="60">
                     <use href="./images/icons.svg#icon-client6"></use>
                   </svg>
                 </a>
