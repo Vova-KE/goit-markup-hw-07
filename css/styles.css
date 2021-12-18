@@ -664,6 +664,7 @@ li {
 } */
 
 /* -----------------------backdrop & modal----------------------- */
+/* 
 .backdrop {
   position: fixed;
   width: 100vw;
@@ -710,11 +711,12 @@ li {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close-icon {
-  fill: currentColor;
-}
 .modal-close:hover {
   color: var(--accent-color);
+}
+
+.modal-close__icon {
+  fill: currentColor;
 }
 
 .is-hidden {
@@ -723,7 +725,7 @@ li {
   pointer-events: none;
 }
 
-.modal-form-title {
+.modal-form__title {
   color: var(--main-text-color);
   font-size: 20px;
   font-weight: 700;
@@ -736,26 +738,26 @@ li {
   margin-top: 12px;
 }
 
-.modal-form-block + .modal-form-block {
+.modal-form__box + .modal-form__box {
   margin-top: 10px;
 }
-.modal-form-name {
+.modal-form__label {
   color: var(--second-text-color);
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   text-align: left;
 }
-.modal-form-input {
+.modal-form__block {
   position: relative;
   color: var(--main-text-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-input:focus-within {
+.modal-form__block:focus-within {
   color: var(--accent-color);
 }
-.customer-input {
+.modal-form__input {
   margin-top: 4px;
   height: 40px;
   width: 100%;
@@ -767,12 +769,12 @@ li {
   color: var(--main-text-color);
 }
 
-.customer-input:focus {
+.modal-form__input:focus {
   border: 1px solid var(--accent-color);
   outline: none;
 }
 
-.customer-input.comment {
+.modal-form__input.comment {
   resize: none;
   padding: 12px 16px;
   height: 120px;
@@ -780,14 +782,14 @@ li {
   line-height: 1.14;
   letter-spacing: 0.01em;
 }
-.customer-input.comment::placeholder {
+.modal-form__input.comment::placeholder {
   color: rgba(117, 117, 117, 0.5);
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   text-align: left;
 }
-.modal-form-icon {
+.modal-form__icon {
   position: absolute;
   top: 50%;
   left: 12px;
@@ -795,14 +797,14 @@ li {
   fill: currentColor;
 }
 
-.modal-check-policy {
+.modal-checkbox__policy {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   align-items: center;
 }
-.modal-check-title {
+.modal-checkbox__title {
   color: var(--second-text-color);
   font-size: 14px;
   line-height: 1.71;
@@ -814,7 +816,7 @@ li {
   margin-right: auto;
 }
 
-.checkbox-label {
+.modal-checkbox__label {
   width: 16px;
   height: 15px;
   border: 2px solid var(--main-text-color);
@@ -827,25 +829,25 @@ li {
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-check-icon {
+.modal-checkbox__icon {
   fill: var(--other-text-color);
 }
-.policy-contract {
+.modal-checkbox__policy-contract {
   color: var(--accent-color);
 }
 
-.modal-checkbox:focus + .checkbox-label {
+.modal-checkbox__input:focus + .modal-checkbox__label {
   width: 16px;
   height: 15px;
   border: 2px solid var(--accent-color);
 }
 
-.modal-checkbox:checked + .checkbox-label {
+.modal-checkbox__input:checked + .modal-checkbox__label {
   background-color: var(--accent-color);
   border: none;
 }
 
-.modal-button-submit {
+.modal-checkbox__submit {
   margin-top: 30px;
   min-width: 200px;
   min-height: 50px;
@@ -864,7 +866,8 @@ li {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
+} */
+
 /*----------------портфолио----------------------*/
 /* .filter-list {
   display: flex;
